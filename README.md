@@ -1,1 +1,1 @@
-# Improving_MotionPlanning
+This project was created as a collaborate with a teammate. We evaluated the widely used Expansive Space Tree's algorithm used for motion planning and proposed a modification that would result in better speed and accuracy.
