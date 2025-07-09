@@ -1,0 +1,60 @@
+Roadmap Statistics:
+
+  Number of Nodes: 193
+  Number of Edges: 192
+
+  There are 1 connected components:
+    CC[0]: 193 (vid 0)
+
+
+Sampler Statistics                                            Attempts Successes
+
+  UniformRandomSampler::UniformRandom                              515       515
+  UniformRandomSampler::UniformRandomFree                           13         8
+  All Samplers                                                     528       523
+  Success Rate: 99.1%
+
+
+Local Planner Statistics                        Attempts Connections    CD Calls
+
+  StraightLine::sl                                    18          18           0
+
+
+Collision Detection Calls                                                  Count
+
+  BasicExtender::Expand                                                    35966
+  UniformRandomSampler::UniformRandomFree::Sampler                            13
+  All Collision Detectors                                                  35979
+
+
+Other Statistics                                                           Value
+
+  BasicRRTStrategy::RRT::Extend                                              567
+  Graph Search                                                                 1
+  LazyQuery::LazyQuery::FoundPath                                              0
+  QueryMethod::Query::FoundPath                                                1
+
+
+Clock Name                                                        Time (Seconds)
+
+  BasicRRTStrategy::RRT::AddEdge                                           0.008
+  BasicRRTStrategy::RRT::AddNode                                           0.012
+  BasicRRTStrategy::RRT::EvaluateMap                                           0
+  BasicRRTStrategy::RRT::Extend                                            0.441
+  BasicRRTStrategy::RRT::FindNearestNeighbor                               0.088
+  BasicRRTStrategy::RRT::GenerateStart                                         0
+  BasicRRTStrategy::RRT::InitAndRun                                         0.56
+  BasicRRTStrategy::RRT::Initialize                                            0
+  BasicRRTStrategy::RRT::Run                                                0.56
+  BasicRRTStrategy::RRT::SelectTarget                                       0.02
+  BasicRRTStrategy::RRT::TryGoalExtension                                 0.0912
+  BruteForceNF::Nearest::FindNeighbors                                     0.084
+  CCTracker::AddEdge                                                       0.004
+  CCTracker::AddVertex                                                         0
+  MPLibrary::Initialize                                                        0
+  QueryMethod::GeneratePath                                                    0
+  QueryMethod::Query                                                           0
+  StraightLine::sl::IsConnected                                            0.056
+  Total Running Time                                                           0
+  UniformRandomSampler::UniformRandom::Sample                              0.012
+  UniformRandomSampler::UniformRandomFree::Sample                              0
