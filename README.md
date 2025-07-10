@@ -1,7 +1,8 @@
 This project was created in collaboration with a teammate (Heather, pham28h@mtholyoke.edu). We evaluated the currently available Expansive Space Tree's algorithm for motion planning for potential weaknesses and proposed a modification that would result in better runtime and thereby, efficiency. 
 
 <h1> Weakness & Proposed Enhancement </h1>
-Problem: EST's use of random directions in a 3D environmentfor determining how the grow the tree's can cause the algorithm to explore unnecessary space and slow the progress of finding a path. This would result in increased opportunity for the start and goal node trees to explore the space locally around its own root. It also increases the possibility of the start and goal trees growing in opposite directions from each other rather than expand towards the counterpart configuration.  
+Problem: EST's use of random directions in a 3D environmentfor determining how the grow the tree's can cause the algorithm to explore unnecessary space and slow the progress of finding a path. This would result in increased opportunity for the start and goal node trees to explore the space locally around its own root. It also increases the possibility of the start and goal trees growing in opposite directions from each other rather than expand towards the counterpart configuration.    
+
 
     
 Enhancement: Introducing a directional bias that would increase the likelihood of the random direction chosen for growth of the start tree to head towards the goal tree and vice versa.    
