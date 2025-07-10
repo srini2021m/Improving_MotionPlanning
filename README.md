@@ -7,7 +7,7 @@ Enhancement: Introducing a directional bias that would increase the likelihood o
 Logic: Creating this bias would reduce the chance of unnecessary exploration in opposite directions. Thus, EST would have a better chance of growing the tree in the shortest path, resulting in faster connection and path finding.
 
 <h2> Results and Further Analysis </h2>
-Implementing the bias was detrimental to runtime statistics by 128%. In a simple configuration space like the 3D environment, the EST algorithm is trying to expand the tree so the more sparse and randomly it grows, the better. Thus, heading particularly towards the start/goal node wasn't the best solution.  
+Implementing the bias was detrimental to runtime statistics by 128%. In a simple configuration space like the 3D environment, the EST algorithm is trying to expand the tree so the more sparse and randomly it grows, the better. Thus, heading particularly towards the start/goal node wasn't the best solution.  <br>
 
 New proposal: A directional bias would be more benificial in a complex environment such as the Narrow Passage problem.  
 <br>
