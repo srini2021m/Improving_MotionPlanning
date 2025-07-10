@@ -1,7 +1,6 @@
 #include "MyImprovedEST.h"
 
-#include "MPLibrary/MPLibrary.h"
-
+#include "MPLibrary/MPLibrary.h" //Package of libraries used to solve motion planning problems
 #include <iostream>
 #include <string>
 #include <utility>
@@ -129,7 +128,7 @@ TryMerge() {
   LPOutput lpOutput;
   Cfg collisionCfg(robot);
 
-  // choose a random set of VIDs from each tree and store them in local
+  // choose a random set of Vertex IDs from each tree and store them in local
   // variables startSet and goalSet
   size_t k = 5;
   vector<VID> startSet;
