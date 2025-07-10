@@ -10,6 +10,6 @@ Logic: Creating this bias would reduce the chance of unnecessary exploration in 
 Implementing the bias was detrimental to runtime statistics by 128%. In a simple configuration space like the 3D environment, the EST algorithm is trying to expand the tree so the more sparse and randomly it grows, the better. Thus, heading particularly towards the start/goal node wasn't the best solution.  
 
 New proposal: A directional bias would be more benificial in a complex environment such as the Narrow Passage problem.  
-
+<br>
 Results: A 57% improvement in runtime was observed indicating that more directed growth is benificial to solve narrow passage motion planning problems.
    
