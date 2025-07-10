@@ -147,9 +147,9 @@
       <MyStrategy label="MyStrategy"/>
 
       <!-- MyEST -->
-      <MyEST label="MyEST">
+      <MyImprovedEST label="MyImprovedEST">
         <Evaluator label="Query"/>
-      </MyEST>
+      </MyImprovedEST>
 
     </MPStrategies>
 
@@ -160,8 +160,8 @@
 
     <!-- MPProblem allows multiple solvers to be specified and executed. -->
 
-    <Solver mpStrategyLabel="MyEST" seed="12345678"
-      baseFilename="MyEST" vizmoDebug="true"/>
+    <Solver mpStrategyLabel="MyImprovedEST" seed="12345678"
+      baseFilename="MyImprovedEST" vizmoDebug="true"/>
 
   </Library>
 
